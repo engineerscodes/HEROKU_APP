@@ -1,4 +1,4 @@
-#import  india_covid_19_info
+import  india_covid_19_info
 import wget
 import plotly.graph_objects as go
 import pandas as pd
