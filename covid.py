@@ -8,6 +8,16 @@ import plotly.express as px
 #filename = wget.download(url)
 
 #india_covid_19_info.my_func()
+
+#fig.show()
+
+import dash
+import dash_core_components as dcc
+import dash_html_components as html
+
+app = dash.Dash()
+server = app.server
+
 data19.navee()
 data=pd.read_csv('coviddata.csv')
 d=pd.DataFrame(data)
@@ -131,14 +141,6 @@ fig = go.Figure(data=data, layout=layout)
 fig.update_layout(title='COVID 19 REAL-TIME REPORT <br>BY NAVEEN')
 fig.update_layout(mapbox_style="open-street-map")
 
-#fig.show()
-
-import dash
-import dash_core_components as dcc
-import dash_html_components as html
-
-app = dash.Dash()
-server = app.server
 app.layout = html.Div([
     dcc.Graph(figure=fig)
 
