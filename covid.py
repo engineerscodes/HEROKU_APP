@@ -2,6 +2,7 @@ import  data19
 import wget
 import plotly.graph_objects as go
 import pandas as pd
+
 import plotly.express as px
 #url = 'https://drive.google.com/uc?export=download&id=1RwYIsSTax0gsQVr8PLKOPwB4BO5CN1p9'
 #filename = wget.download(url)
