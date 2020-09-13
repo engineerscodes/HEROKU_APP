@@ -1,4 +1,4 @@
-import  india_covid_19_info
+import  data19
 import wget
 import plotly.graph_objects as go
 import pandas as pd
@@ -7,7 +7,7 @@ import plotly.express as px
 #filename = wget.download(url)
 
 #india_covid_19_info.my_func()
-data=pd.read_csv('data.csv')
+data=pd.read_csv('coviddata.csv')
 d=pd.DataFrame(data)
 
 map_active = go.Scattermapbox(
