@@ -18,7 +18,7 @@ import dash_html_components as html
 app = dash.Dash()
 server = app.server
 
-data19.navee()
+#data19.navee()
 data=pd.read_csv('coviddata.csv')
 d=pd.DataFrame(data)
 
