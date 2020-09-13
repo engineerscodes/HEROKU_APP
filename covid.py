@@ -21,6 +21,12 @@ server = app.server
 #data19.navee()
 data=pd.read_csv('coviddata.csv')
 d=pd.DataFrame(data)
+d.drop(d[d.District=='State Pool'].index,inplace=True)
+d.drop(d[d.District=='Mahe'].index,inplace=True)
+d.drop(d[d.District=='Evacuees'].index,inplace=True)
+d.drop(d[d.District=='Banda'].index,inplace=True)
+d.drop(d[d.District=='Italians'].index,inplace=True)
+d.drop(d[d.District=='Salem'].index,inplace=True)
 
 map_active = go.Scattermapbox(
     customdata=d.loc[:, ['ACTIVE CASES', "CONFIRMED CASES", "DECEASED CASES", "RECOVERED CASES"]],
