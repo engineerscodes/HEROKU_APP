@@ -8,6 +8,7 @@ import plotly.express as px
 #filename = wget.download(url)
 
 #india_covid_19_info.my_func()
+data19.navee()
 data=pd.read_csv('coviddata.csv')
 d=pd.DataFrame(data)
 
