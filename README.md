@@ -1,5 +1,5 @@
 # HEROKU_APP
-COVID DSAH APP
+COVID DASH APP
 link-https://covid19dashinfonav.herokuapp.com/
 
 The Working of app solely depends on API to get realtime data.
