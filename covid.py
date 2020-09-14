@@ -1,25 +1,25 @@
-import  data19
+import os
+import delete
 import wget
 import plotly.graph_objects as go
 import pandas as pd
-
-import plotly.express as px
-#url = 'https://drive.google.com/uc?export=download&id=1RwYIsSTax0gsQVr8PLKOPwB4BO5CN1p9'
-#filename = wget.download(url)
-
-#india_covid_19_info.my_func()
-
-#fig.show()
-
 import dash
 import dash_core_components as dcc
 import dash_html_components as html
+from datetime import datetime
+
+
+delete.remove()
+url = "https://drive.google.com/uc?export=download&id=1-QseMOhwLVCbijjO2mcMc_xXL3Bd2rM8"
+filename = wget.download(url)
+
+
 
 app = dash.Dash()
 server = app.server
 
 #data19.navee()
-data=pd.read_csv('coviddata.csv')
+data=pd.read_csv('data.csv')
 d=pd.DataFrame(data)
 d.drop(d[d.District=='State Pool'].index,inplace=True)
 d.drop(d[d.District=='Mahe'].index,inplace=True)
