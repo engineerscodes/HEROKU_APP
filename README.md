@@ -2,7 +2,7 @@
 COVID DSAH APP
 link-https://covid19dashinfonav.herokuapp.com/
 
-The Working app solely depends API - https://api.covid19india.org/
+The Working of app solely depends API - https://api.covid19india.org/
 There are few changes in there API which takes place regularly
 Which may have a small impact on My dash app
 I would not suggest you go through there CSV (DATASET) or JSON because it contains lots of unwanted data and does not contain longitude & latitude  on Each District 
