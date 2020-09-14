@@ -11,4 +11,5 @@ If you prefer that please edit the json and remove unwanted DATA.
 So plz check my COVID19_TRACKER repository for more info.
 json link-https://api.covid19india.org/state_district_wise.json
 cvs link-https://api.covid19india.org/documentation/csv/
-My CSV FILE -https://drive.google.com/file/d/1-QseMOhwLVCbijjO2mcMc_xXL3Bd2rM8/view?usp=sharing
+My CSV FILE -https://drive.google.com/file/d/1-QseMOhwLVCbijjO2mcMc_xXL3Bd2rM8/view?usp=sharing .
+The above file is updated every day 1-2 pm.
