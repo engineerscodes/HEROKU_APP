@@ -25,6 +25,7 @@ d.drop(d[d.District=='Evacuees'].index,inplace=True)
 d.drop(d[d.District=='Banda'].index,inplace=True)
 d.drop(d[d.District=='Italians'].index,inplace=True)
 d.drop(d[d.District=='Salem'].index,inplace=True)
+d.drop(d[d.District=='Ranga Reddy'].index,inplace=True)
 
 map_active = go.Scattermapbox(
     customdata=d.loc[:, ['ACTIVE CASES', "CONFIRMED CASES", "DECEASED CASES", "RECOVERED CASES"]],
