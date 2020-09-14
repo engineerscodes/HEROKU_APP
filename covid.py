@@ -15,8 +15,6 @@ url = "https://drive.google.com/uc?export=download&id=1-QseMOhwLVCbijjO2mcMc_xXL
 filename = wget.download(url)
 app = dash.Dash()
 server = app.server
-
-#data19.navee()
 data=pd.read_csv('https://drive.google.com/uc?export=download&id=1-QseMOhwLVCbijjO2mcMc_xXL3Bd2rM8')
 d=pd.DataFrame(data)
 d.drop(d[d.District=='State Pool'].index,inplace=True)
