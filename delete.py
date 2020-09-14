@@ -1,9 +1,8 @@
 import os
-from threading import Timer
-from datetime import datetime, timedelta
+'''TO GET DATA DAILY DATA OF COVID and REMOVE OLDER ONCES'''
 def remove():
  if os.path.exists("data.csv"):
-    os.remove("data.csv")
+    #os.remove("data.csv")
     return True
  return False
 

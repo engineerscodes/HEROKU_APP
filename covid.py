@@ -1,4 +1,4 @@
-import os
+#import os
 import delete
 import wget
 import plotly.graph_objects as go
@@ -6,20 +6,18 @@ import pandas as pd
 import dash
 import dash_core_components as dcc
 import dash_html_components as html
-from datetime import datetime
+
 
 
 delete.remove()
+'''TO GET DAILY DATA FROM MY CSV FILE '''
 url = "https://drive.google.com/uc?export=download&id=1-QseMOhwLVCbijjO2mcMc_xXL3Bd2rM8"
 filename = wget.download(url)
-
-
-
 app = dash.Dash()
 server = app.server
 
 #data19.navee()
-data=pd.read_csv('data.csv')
+data=pd.read_csv('https://drive.google.com/uc?export=download&id=1-QseMOhwLVCbijjO2mcMc_xXL3Bd2rM8')
 d=pd.DataFrame(data)
 d.drop(d[d.District=='State Pool'].index,inplace=True)
 d.drop(d[d.District=='Mahe'].index,inplace=True)
