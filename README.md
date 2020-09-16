@@ -1,7 +1,8 @@
 # HEROKU_APP
 COVID DASH APP<br/>
 HEROKU -https://dashboard.heroku.com/apps <br/>
-<h1>link-https://covid19dashinfonav.herokuapp.com/<h1><br/>
+<h1>link-https://covid19dashinfonav.herokuapp.com/</h1>
+  <br/>
 
 The Working of app solely depends on API to get realtime data.<br/>
 API - https://api.covid19india.org/<br/><br/>
