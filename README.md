@@ -1,6 +1,7 @@
 # HEROKU APP<br/>
-<h1>COVID DASH APP</h1>
+<h1>COVID DASH APP [NOT LIVE ANY MORE]</h1>
  <br/>
+Due to major Changes in Api recently
 HEROKU -https://dashboard.heroku.com/apps <br/>
 <h1>link-https://covid19dashinfonav.herokuapp.com/</h1>
   <br/>
